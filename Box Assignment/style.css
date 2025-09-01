@@ -1,0 +1,63 @@
+.Body {
+    /* Apply styles to the body element to set its background color to light blue and use flexbox to center its content both vertically and horizontally.*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.Container-div {
+    /* Create a div element with a class name "container". Apply styles to set its width to 500px, height to 300px, background color to light gray, and add some padding (e.g., 20px) around its content.*/
+    width: 500px;
+    height: 500px;
+    border: 10px solid black;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+
+}
+.Content {
+    /* Inside the container, create another div element with a class name "content". Apply styles to set its width to 400px, height to 200px, background color to white, and margin of 0 auto to center it horizontally within the container.
+ */
+    font-size: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    margin: 0px 20px 20px 20px;
+    border: 2px solid rgb(160, 8, 8);
+    padding: 40px 20px 20px 20px;
+    overflow: scroll;
+}
+.absolute {
+    /* Position a div element with class name "absolute" inside the container div using absolute positioning. Apply styles to set its position to top: 20px and left: 20px.
+ */
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: top;
+    top: 20px;
+    left: 20px;
+}
+
+.relative {
+    /* Position another div element with class name "relative" inside the container div using relative positioning. Apply styles to set its position to top: 50% and left: 50%.
+Task 5: Floating Elements
+ */
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 2px solid blue;
+    padding: 10px 10px 10px 10px;
+}
+.float {
+    /* Create two div elements inside the container div and apply the CSS float property to float them to the left and right respectively. Experiment with different widths and heights to see how they interact with floated elements.
+ */
+    float: left;
+    width: 5%;
+    height: 100px;
+    background-color: green;
+    margin: 10px 10px 10px 5px;
+}
